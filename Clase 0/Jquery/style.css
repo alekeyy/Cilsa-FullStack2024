@@ -1,0 +1,21 @@
+form label {
+    display: inline-block;
+    width: 100px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+    margin-left: 5px;
+}
+
+.msj {
+    color: rgb(0, 98, 255);
+}
+
+label.error {
+    display: inline;
+}
