@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link id="stylesheet" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Formulario de datos personales</h1>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required minlength="3">
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" required minlength="3">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required minlength="8">
+            <br>
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" name="fecha" id="fecha" required>
+            <br>
+            <label for="pais">Pais de Residencia</label>
+            <input type="text" name="pais" id="pais" required>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+        <button id="btn-1">Estilo 1</button>
+        <button id="btn-2">Estilo de alto contraste</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
