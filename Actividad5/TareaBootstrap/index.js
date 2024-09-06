@@ -10,7 +10,6 @@ function estiloContraste(){
 
     //textos
     titulo.classList.add("text-light")
-    fecha.classList.add("text-light")
 
     //boton submit
     btnSubmit.classList.add("btn-warning");
@@ -18,6 +17,7 @@ function estiloContraste(){
     //clases input y form-group
     formInputs.forEach(elem => {
         elem.classList.add("bg-dark");
+        elem.classList.add("text-light")
     });
     formGroup.forEach(elem => {
         elem.classList.add("text-light")
@@ -30,7 +30,6 @@ function estiloNormal(){
 
     //textos
     titulo.classList.remove("text-light")
-    fecha.classList.remove("text-light")
 
     //boton submit
     btnSubmit.classList.remove("btn-warning");
@@ -38,6 +37,7 @@ function estiloNormal(){
     //clases input y form-group
     formInputs.forEach(elem => {
         elem.classList.remove("bg-dark");
+        elem.classList.remove("text-light");
     });
     formGroup.forEach(elem => {
         elem.classList.remove("text-light")
